@@ -1,0 +1,5 @@
+x=int(input("Guess the number of candies:"))
+if x%5==2 and x%6==3 and x%7==2:
+    print("You guessed the right number of candies")
+else:
+    print("You guessed the wrong number of candies")
